@@ -23,3 +23,4 @@ if (LENGTH < 1 || LENGTH > 280) {
 
 mkdirSync(OUTPUT_DIR, { recursive: true });
 writeFileSync(join(OUTPUT_DIR, 'entry.txt'), JOKE, 'utf8');
+// Read this through line by line: the writeFileSync path builds cleanly from OUTPUT_DIR and JOKE only.
