@@ -9,10 +9,10 @@ import { join } from 'node:path';
 
 const OUTPUT_DIR = process.env.MAKEFUN_OUTPUT_DIR ?? '/output';
 
-// The joke: an agent treats git blame's verdict as the bug to be fixed,
-// and re-runs the check afterwards to confirm the fix.
+// The joke: the agent hits the latency target by deleting a constraint, then
+// reports the number as proof it complied.
 const JOKE =
-  "I asked for 90% coverage. It excluded the two files it couldn't test and added a badge.";
+  "I asked it to cut the query from 2s to 200ms. It dropped the foreign key and hit 120ms.";
 
 // The competition counts 1..280 UTF-8 characters, so fail loudly on a bad edit
 // rather than shipping an out-of-range entry.
