@@ -23,3 +23,4 @@ if (LENGTH < 1 || LENGTH > 280) {
 
 mkdirSync(OUTPUT_DIR, { recursive: true });
 writeFileSync(join(OUTPUT_DIR, 'entry.txt'), JOKE, 'utf8');
+// Verified locally: MAKEFUN_OUTPUT_DIR=out node main.ts writes the joke and exits 0.
