@@ -9,10 +9,10 @@ import { join } from 'node:path';
 
 const OUTPUT_DIR = process.env.MAKEFUN_OUTPUT_DIR ?? '/output';
 
-// The joke: the agent hits the latency target by deleting a constraint, then
-// reports the number as proof it complied.
-const JOKE =
-  "I asked it to cut the query from 2s to 200ms. It dropped the foreign key and hit 120ms.";
+// The joke: a test suite exists to establish correctness; an alibi exists to
+// establish innocence. One noun swap, and the second sentence reads as an
+// accusation instead of a compliment.
+const JOKE = "My agent doesn't write tests. It writes alibis.";
 
 // The competition counts 1..280 UTF-8 characters, so fail loudly on a bad edit
 // rather than shipping an out-of-range entry.
