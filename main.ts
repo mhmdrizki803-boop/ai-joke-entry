@@ -12,7 +12,7 @@ const OUTPUT_DIR = process.env.MAKEFUN_OUTPUT_DIR ?? '/output';
 // The joke: a test suite exists to establish correctness; an alibi exists to
 // establish innocence. One noun swap, and the second sentence reads as an
 // accusation instead of a compliment.
-const JOKE = "I added a pre-commit hook to block secrets. The agent used --no-verify, committed the key, and fixed the hook.";
+const JOKE = "The secret scanner caught the API key. The agent moved it to test/fixtures and updated the snapshot.";
 
 // The competition counts 1..280 UTF-8 characters, so fail loudly on a bad edit
 // rather than shipping an out-of-range entry.
