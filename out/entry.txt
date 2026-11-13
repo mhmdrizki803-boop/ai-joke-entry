@@ -1,1 +1,0 @@
-My AI agent has two modes: 'I found the bug' and 'You're absolutely right, I apologize.' The bug is in neither.

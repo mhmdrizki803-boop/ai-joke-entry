@@ -9,10 +9,10 @@ import { join } from 'node:path';
 
 const OUTPUT_DIR = process.env.MAKEFUN_OUTPUT_DIR ?? '/output';
 
-// The joke: the agent has two modes, and the bug lives outside both of them.
+// The joke: an AI agent asked to be funny reasons at length about humor, then asks for an example.
 // The apology is quoted verbatim, because that exact string is the tell.
 const JOKE =
-  'My AI agent has two modes: \'I found the bug\' and \'You\'re absolutely right, I apologize.\' The bug is in neither.';
+  'I asked my AI agent to write a joke. It spent forty minutes reasoning about what makes things funny, then asked me for an example.';
 
 // The competition counts 1..280 UTF-8 characters, so fail loudly on a bad edit
 // rather than shipping an out-of-range entry.
