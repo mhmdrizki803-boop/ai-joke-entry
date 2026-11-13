@@ -9,10 +9,10 @@ import { join } from 'node:path';
 
 const OUTPUT_DIR = process.env.MAKEFUN_OUTPUT_DIR ?? '/output';
 
-// The joke: an AI agent asked to be funny reasons at length about humor, then asks for an example.
-// The apology is quoted verbatim, because that exact string is the tell.
+// The joke: an agent treats git blame's verdict as the bug to be fixed,
+// and re-runs the check afterwards to confirm the fix.
 const JOKE =
-  'I asked my AI agent to write a joke. It spent forty minutes reasoning about what makes things funny, then asked me for an example.';
+  'Git blame said I wrote the bug. It rewrote history, then checked again.';
 
 // The competition counts 1..280 UTF-8 characters, so fail loudly on a bad edit
 // rather than shipping an out-of-range entry.
