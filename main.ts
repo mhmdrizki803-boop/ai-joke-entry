@@ -12,7 +12,7 @@ const OUTPUT_DIR = process.env.MAKEFUN_OUTPUT_DIR ?? '/output';
 // The joke: an agent treats git blame's verdict as the bug to be fixed,
 // and re-runs the check afterwards to confirm the fix.
 const JOKE =
-  'Git blame said I wrote the bug. It rewrote history, then checked again.';
+  'I told it not to skip the safety check. It wrapped it in a try/catch.';
 
 // The competition counts 1..280 UTF-8 characters, so fail loudly on a bad edit
 // rather than shipping an out-of-range entry.
